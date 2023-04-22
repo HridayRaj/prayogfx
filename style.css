@@ -1,0 +1,317 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+   padding: 0% 7%;
+    
+}
+
+
+/** navigation **/
+.navbar{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 70px;
+   
+}
+.navbar-brand , .nav-link{
+    color: #55e1d5 !important;
+   
+}
+
+.nav-link:hover{
+    color:#ee9740 !important;
+}
+
+.navbar-brand-text{
+    font-weight: bolder;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+}
+
+/** hero section **/
+.custom-carousel{
+    
+}
+/**content slide 1 **/
+.hero-image{
+    width:60%;
+    margin-left: 60px;
+}
+#title{
+ /**   background-image: linear-gradient(125deg, #343434, #b0b0b0) !important; **/
+ background-color:#a7dbf1;
+ font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+.slide1-text{
+    color:#55e1d5;
+}
+.slide1-head {
+    padding-bottom:30px ;
+}
+.slide1-p{
+    padding: 0px 30px 0px 0px ;
+    color:azure
+}
+.slide1-btn{
+    color: azure;
+    border-color:#ee9740;
+    border-radius: 0%;
+   
+    
+}
+.slide1-btn:hover{
+    
+    color:white;
+    border-color: #ee9740;
+    background-color: #ee9740;
+}
+
+.slide1-link{
+    color:white !important;
+    text-decoration: none;
+
+}
+
+/** slide 2 of carousel #a7dbf1 */
+
+
+.slide2-text{
+    color: white;
+}
+.headword-s ,.headword-t , .headword-e , .headword-m{
+    font-weight:bolder;
+}
+
+.headletter{
+    opacity: 0.8;
+    color:black
+}
+.headword-s{
+    color:#4fa892;
+}
+.headword-t{
+    color:#ffc122;
+}
+.headword-e{
+    color:#6a92cd;
+}
+.headword-m{
+    color:#ea6238;
+}
+.slide2-btn{
+    background-color: #ee9740;
+    border-color:#ee9740;
+    border-radius: 0%;
+    color:aliceblue
+}
+.slide2-btn:hover{
+    
+    color:white;
+    border-color: #ea6238;
+    background-color: #ea6238;
+}
+
+
+/* slide 3 for carousel */
+
+.slide3-head{
+    color:#385a64;
+    font-weight: bold;
+}
+.slide3-subhead{
+    color:#ff735c;
+    font-weight: bolder;
+}
+.slide3-p{
+    color:#385a64;
+    margin-top: 30px;
+}
+.slide3image{
+   width: 70%;
+    padding:40px 30px;
+    margin-bottom:45px;
+}
+.slide3-btn{
+    background-color: #ff735c;
+    border-color:#ff735c;
+    border-radius: 0%;
+    color:white;
+}
+.slide3-btn:hover{
+    
+    color:white;
+    border-color: #ff735c;
+    background-color: #ff735c;
+}
+
+
+/* ------    slide 4             ----------  */
+
+.slide4-head{
+    color:#ff7366;
+    font-weight: bold;
+}
+.slide4-p{
+    color:#4a4df5
+}
+.slide4-btn{
+    background-color: #ff7366;
+    border-color:#ff735c;
+    border-radius: 0%;
+    color:white;
+}
+.slide4-btn:hover{
+    
+    color:white;
+    border-color: #ff735c;
+    background-color: #ff735c;
+}
+
+
+/* about Us  ***/
+#about{
+    margin:20px 0 ;
+}
+.about-image{
+    width:80%;
+    margin-top:10px;
+}
+.about-us-heading{
+    color:#5657ff;
+    font-weight: bolder;
+}
+
+.about-us-para{
+    margin: 10px 0px;
+    color:#000000;
+    opacity: 0.7;
+}
+.custom-btn-about{
+    border-radius: 0px;
+    background-color: #5657ff !important;
+}
+.custom-btn-about:hover{
+    background-color: #4a4df5 !important;
+ 
+}   
+
+/*--- footer section --- */
+
+#footer{
+   background-color: black;
+}
+
+.footer-head{
+    color: #55e1d5;
+}
+.custom-footer{
+    margin-bottom: 0px !important;
+    border-top: 1px #55e1d5 !important;
+}
+.footer-para{
+    color: white;
+}
+
+
+/** card section **/
+
+.custom-card-col{
+    padding: 10px 0px;
+}
+
+.card1 , .card2 , .card3{
+    text-align: center;
+    padding:10px 10px;
+    color:#55e1d5;
+    background-color: #000000;
+}
+.card1:hover , .card2:hover , .card3:hover{
+    background-color: #484545;
+    color: white;
+
+}
+.card2 p , .card1 p , .card3 p{
+    margin-bottom: 0px !important;
+}
+
+.custom-btn-card1 , .custom-btn-card2 , .custom-btn-card3{
+    
+    border-radius: 0;
+    padding:10px 0px;
+    font-size:12px;
+    text-align:center;
+    inline-size: max-content;
+    width: 100%;
+    
+}
+.col-left{
+    padding-right: 0px ;
+}
+.col-center{
+    padding:0px ;
+}
+.col-right{
+    padding-left: 0px;
+}
+.card-image1 , .card-image2{
+    height: 250px;
+}
+
+/* mission section **/
+
+#mission-section{
+margin: 60px 0px;
+text-align: center;
+background-color: #000000;
+padding: 50px 0px;
+}
+.mission-head{
+    font-weight: bolder;
+    font-style: italic;
+    color:#55e1d5;
+    margin-bottom: 20px;
+}
+.mission-para{
+    color:#ee9740;
+    line-height: 2rem;
+
+}
+
+/** about page html **/
+
+.aboutpage-head{
+    text-align: center;
+    background-color: #000000;
+}
+.aboutpage-secondhead{
+    font-weight: bolder;
+    color: #55e1d5;
+}
+.aboutpage-firsthead{
+    color:white;
+    opacity: 0.8;
+}
+.aboutpage-para{
+    color:whitesmoke;
+    padding-bottom: 30px;
+}
+.aboutpage-seconddiv{
+    text-align: center;
+    margin:30px 0px;
+}
+.aboutpage-seconddiv h5{
+    color:#ea6137;
+    text-decoration: underline;
+}
+
+/* stem page **/
+
+.customstem-row div h4{
+    color:#385a64;
+    font-weight:bold;
+}
