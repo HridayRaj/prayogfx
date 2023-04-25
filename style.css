@@ -288,6 +288,9 @@ body{
 .card-image1 , .card-image2{
     height: 250px;
 }
+.custom-card-col{
+    padding-inline: 0;
+}
 
 /* mission section **/
 
