@@ -10,6 +10,7 @@ body{
 }
 
 
+
 /** upper nav **/
 
 .cloud-icon-right{
@@ -356,4 +357,23 @@ padding: 50px 0px;
     transform: scale(1.2);
     border-style: ridge;
     box-shadow: 10px 5px 5px #4e4c4c ;
+}
+
+/** index products para **/
+
+/** product sample section  **/ 
+.psshead{
+    color:#053c58;
+}
+.psshead-btn{
+    padding: 10px !important;
+    font-size: 15px !important;
+    border-radius: 0;
+    padding:10px 0px;
+    font-size:12px;
+    text-align:center;
+    background-color: #053c58;
+}
+.psshead-btn:hover{
+    background-color: #fe5e78;
 }
