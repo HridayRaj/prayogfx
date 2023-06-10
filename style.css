@@ -256,6 +256,30 @@ nav{
     color: white;
 }
 
+.customfcf{
+    border-radius: 0%;
+}
+.customfcf:focus{
+    border:2px solid #55e1d5;
+}
+.fbtn{
+    background-color:#55e1d5 !important;
+    border-radius: 0%;
+    color:#000000;
+}
+.fbtn:hover{
+    background-color: #000000 !important;
+    color: white;
+}
+
+.fcol3{
+    color:white;
+}
+
+.fs1{
+    text-decoration: none !important;
+    color:#55e1d5;
+}
 
 /** card section **/
 
@@ -380,4 +404,11 @@ padding: 50px 0px;
 }
 .psshead-btn:hover{
     background-color: #fe5e78;
+}
+
+
+/* contact page **/
+
+.custom-contactustwo{
+    height:650px;
 }
